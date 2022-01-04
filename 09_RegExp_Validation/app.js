@@ -28,7 +28,7 @@ form.onsubmit = (e) => {
     /^(?=.*[a-zA-Z])(?=.*\d)(?=.*[!@#$%^&*()_+])[A-Za-z\d][A-Za-z\d!@#$%^&*()_+]{8,}$/;
   if (!password_regExp.test(password)) {
     alert(
-      "Password must be must be eight characters including one uppercase letter, one special character and alphanumeric characters!"
+      "Password must be eight characters including one uppercase letter, one special character and alphanumeric characters!"
     );
     testFailed = true;
   }
