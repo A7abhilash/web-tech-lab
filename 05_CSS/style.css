@@ -1,0 +1,34 @@
+body {
+  background-image: url("https://wallpapercave.com/wp/wp8417400.jpg");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+
+#first-font {
+  font-family: "Times New Roman", serif;
+}
+
+#second-font {
+  font-family: "Calibri", serif;
+}
+
+.pseudo:link {
+  color: orange;
+}
+
+.pseudo:hover {
+  color: green;
+}
+
+.pseudo-active :visited {
+  color: yellow;
+}
+
+.pseudo-active :active {
+  color: purple;
+}
+
+.hidden {
+  display: none;
+}

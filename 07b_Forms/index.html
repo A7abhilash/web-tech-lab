@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <div>
+      <form name="form" id="form">
+        <!-- name, email, mobile, gender, fav color -->
+        <div style="margin: 15px">
+          <label>Name:</label>
+          <input
+            type="text"
+            name="name"
+            placeholder="Enter your name"
+            required
+          />
+        </div>
+        <div style="margin: 15px">
+          <label>Email:</label>
+          <input
+            type="email"
+            name="email"
+            placeholder="Enter your email"
+            required
+          />
+        </div>
+        <div style="margin: 15px">
+          <label>Mobile Number:</label>
+          <input
+            type="tel"
+            name="phone"
+            placeholder="Enter your phone no."
+            required
+          />
+        </div>
+        <div style="margin: 15px">
+          <label>Gender:</label>
+          <input type="radio" name="gender" value="Male" /> Male
+          <input type="radio" name="gender" value="Female" /> Female
+        </div>
+        <div style="margin: 15px">
+          <label>Fav Color:</label>
+          <input
+            type="text"
+            name="color"
+            placeholder="Enter your fav color"
+            required
+          />
+        </div>
+        <div style="margin: 15px">
+          <button type="submit">Submit</button>
+        </div>
+      </form>
+    </div>
+    <!-- <div>
+        <hr>
+        <div style="margin: 15px;">
+                <p>Name: <span id="name"></span></p>
+            </div>
+            <div style="margin: 15px;">
+                <p>Email: <span id="email"></span></p>
+            </div>
+            <div style="margin: 15px;">
+                <p>Mobile Number: <span id="phone"></span></p>
+            </div>
+            <div style="margin: 15px;">
+                <p>Gender: <span id="gender"></span></p>
+            </div>
+            <div style="margin: 15px;">
+                <p>Fav Color: <span id="color"></span></p>
+            </div>
+    </div> -->
+
+    <script src="./app.js"></script>
+  </body>
+</html>
